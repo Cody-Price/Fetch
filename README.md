@@ -7,6 +7,9 @@ The App gives users a list of adoptable dogs and gives them a way to filter out 
 #### Demo:
 
 <a href="https://imgflip.com/gif/2ytnnl"><img src="https://i.imgflip.com/2ytnnl.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/2yto2a"><img src="https://i.imgflip.com/2yto2a.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/2ytodk"><img src="https://i.imgflip.com/2ytodk.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/2ytoke"><img src="https://i.imgflip.com/2ytoke.gif" title="made at imgflip.com"/></a>
 
 ## Install
     - clone the repo down (git clone https://github.com/kayleenovak/Fetch.git)
