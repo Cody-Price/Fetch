@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Cody-Price/Fetch.svg?branch=master)](https://travis-ci.org/Cody-Price/Fetch)
+
 # Fetch
 
 Fetch is a dog adoption app made to give users a list of adoptable dogs as well as a way to filter/search various traits in order to find the perfect pet and put them in contact with the corresponding shelter that the pet is currently located.
