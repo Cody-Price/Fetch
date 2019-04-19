@@ -21,13 +21,13 @@ export default class App extends Component {
   }
 
   componentDidMount = () => {
-    fetch('http://whateverly-datasets.herokuapp.com/api/v1/adoptableDogs')
+    fetch('https://whateverly-datasets.herokuapp.com/api/v1/adoptableDogs')
       .then(response => response.json())
       .then(adoptableDogs => this.setState({
         adoptableDogs: adoptableDogs.adoptableDogs
       }))
       .catch(error => console.log(error));
-    fetch('http://whateverly-datasets.herokuapp.com/api/v1/rescues')
+    fetch('https://whateverly-datasets.herokuapp.com/api/v1/rescues')
       .then(response => response.json())
       .then(rescues => this.setState({
         rescues: rescues.rescues
