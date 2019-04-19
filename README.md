@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Cody-Price/Fetch.svg?branch=master)](https://travis-ci.org/Cody-Price/Fetch)
+![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)
 
 # Fetch
 
