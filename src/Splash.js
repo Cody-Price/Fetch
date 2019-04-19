@@ -22,7 +22,6 @@ export default class Splash extends Component {
   }
 
   render() {
-    console.log(this.props);
     return (
       <div className="splash">
         <h1 className='splash-title'>Fetch <i className="fas fa-dog"></i> </h1>

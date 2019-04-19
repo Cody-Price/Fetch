@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '11'
+notifications:
+  email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: oBDE5oyk0PGiyQ9nDD3tOdfhOuZgj72JVqzhoDc6VDmqeSGISeq9navJJ4jqe4I/3ymhTwoo+OwXOztjnwxHKdTZqLDxvcXBkOQyfvbKOuJgtvLHWT01zcWj39BUaL9aORMXlrFatGkUUlX/XApKVfRLk1j+K/tdmyGC76NxTxVxD/n+8AsoQUt2kOYwoWkIgDNtwJnQQTah0CIxuJBR1VDqstsqHyH8f4Jz+KhiaqXmSshWIaCi/fpzM42WA3luZz/ert8pTLfHikmfW3/uY8DBtOYMyeaWUS/0DRecxdNCYHeHiXBPDFN3aTrkV4pOi+D7ZC6FdYGr2jvMzRSHQMauz68SKMLAL9xVmjbnPgiO5yiGfH8AlqS60VhDSm3RlexQzeXw+nkXF+8Trwax+sek/m2eFKpoiC4VvltM7b7VMhbPSSWlu+qzTDFeh5WPEFH71M/s/bp5agm/JKGAdp9RfZdFW/mmpOZZ0uN+1qpGdAV/UqFIYo3IbZJmChBCfsP59SHU7cgGbNdWFpuTyeOk84FmKzbXuXvuUTaHgaRqZLusQlGq5r319uef33Oq9n51ajbkfiIdhc9eq2Nvn0Z/fRZOy1UTujA5zAJ9K9mVDfDnsqXn9B18hoUmwTlEnxY/sKzunVOw4aIy7OXFx7ypJwfAflVnuCMj0clkEa8=
+  app: dog-fetch
+  skip_cleanup: true
+scripts:
+  start: node server.js
+  test: NODE_ENV=test jest --exit
